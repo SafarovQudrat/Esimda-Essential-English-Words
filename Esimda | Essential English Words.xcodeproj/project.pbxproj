@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF727E6A2A95E90C0068B616 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF727E692A95E90C0068B616 /* AppDelegate.swift */; };
+		AF727E6C2A95E90C0068B616 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF727E6B2A95E90C0068B616 /* SceneDelegate.swift */; };
+		AF727E6E2A95E90C0068B616 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF727E6D2A95E90C0068B616 /* ViewController.swift */; };
+		AF727E712A95E90C0068B616 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF727E6F2A95E90C0068B616 /* Main.storyboard */; };
+		AF727E732A95E9100068B616 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF727E722A95E9100068B616 /* Assets.xcassets */; };
+		AF727E762A95E9100068B616 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF727E742A95E9100068B616 /* LaunchScreen.storyboard */; };
+		AF727E812A95E9100068B616 /* Esimda___Essential_English_WordsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF727E802A95E9100068B616 /* Esimda___Essential_English_WordsTests.swift */; };
+		AF727E8B2A95E9100068B616 /* Esimda___Essential_English_WordsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF727E8A2A95E9100068B616 /* Esimda___Essential_English_WordsUITests.swift */; };
+		AF727E8D2A95E9100068B616 /* Esimda___Essential_English_WordsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF727E8C2A95E9100068B616 /* Esimda___Essential_English_WordsUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AF727E7D2A95E9100068B616 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF727E5E2A95E90C0068B616 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF727E652A95E90C0068B616;
+			remoteInfo = "Esimda | Essential English Words";
+		};
+		AF727E872A95E9100068B616 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF727E5E2A95E90C0068B616 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF727E652A95E90C0068B616;
+			remoteInfo = "Esimda | Essential English Words";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AF727E662A95E90C0068B616 /* Esimda | Essential English Words.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Esimda | Essential English Words.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF727E692A95E90C0068B616 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AF727E6B2A95E90C0068B616 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AF727E6D2A95E90C0068B616 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AF727E702A95E90C0068B616 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AF727E722A95E9100068B616 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF727E752A95E9100068B616 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AF727E772A95E9100068B616 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF727E7C2A95E9100068B616 /* Esimda | Essential English WordsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Esimda | Essential English WordsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF727E802A95E9100068B616 /* Esimda___Essential_English_WordsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Esimda___Essential_English_WordsTests.swift"; sourceTree = "<group>"; };
+		AF727E862A95E9100068B616 /* Esimda | Essential English WordsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Esimda | Essential English WordsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF727E8A2A95E9100068B616 /* Esimda___Essential_English_WordsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Esimda___Essential_English_WordsUITests.swift"; sourceTree = "<group>"; };
+		AF727E8C2A95E9100068B616 /* Esimda___Essential_English_WordsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Esimda___Essential_English_WordsUITestsLaunchTests.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF727E632A95E90C0068B616 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF727E792A95E9100068B616 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF727E832A95E9100068B616 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF727E5D2A95E90C0068B616 = {
+			isa = PBXGroup;
+			children = (
+				AF727E682A95E90C0068B616 /* Esimda | Essential English Words */,
+				AF727E7F2A95E9100068B616 /* Esimda | Essential English WordsTests */,
+				AF727E892A95E9100068B616 /* Esimda | Essential English WordsUITests */,
+				AF727E672A95E90C0068B616 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF727E672A95E90C0068B616 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF727E662A95E90C0068B616 /* Esimda | Essential English Words.app */,
+				AF727E7C2A95E9100068B616 /* Esimda | Essential English WordsTests.xctest */,
+				AF727E862A95E9100068B616 /* Esimda | Essential English WordsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF727E682A95E90C0068B616 /* Esimda | Essential English Words */ = {
+			isa = PBXGroup;
+			children = (
+				AF727E692A95E90C0068B616 /* AppDelegate.swift */,
+				AF727E6B2A95E90C0068B616 /* SceneDelegate.swift */,
+				AF727E6D2A95E90C0068B616 /* ViewController.swift */,
+				AF727E6F2A95E90C0068B616 /* Main.storyboard */,
+				AF727E722A95E9100068B616 /* Assets.xcassets */,
+				AF727E742A95E9100068B616 /* LaunchScreen.storyboard */,
+				AF727E772A95E9100068B616 /* Info.plist */,
+			);
+			path = "Esimda | Essential English Words";
+			sourceTree = "<group>";
+		};
+		AF727E7F2A95E9100068B616 /* Esimda | Essential English WordsTests */ = {
+			isa = PBXGroup;
+			children = (
+				AF727E802A95E9100068B616 /* Esimda___Essential_English_WordsTests.swift */,
+			);
+			path = "Esimda | Essential English WordsTests";
+			sourceTree = "<group>";
+		};
+		AF727E892A95E9100068B616 /* Esimda | Essential English WordsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AF727E8A2A95E9100068B616 /* Esimda___Essential_English_WordsUITests.swift */,
+				AF727E8C2A95E9100068B616 /* Esimda___Essential_English_WordsUITestsLaunchTests.swift */,
+			);
+			path = "Esimda | Essential English WordsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF727E652A95E90C0068B616 /* Esimda | Essential English Words */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF727E902A95E9100068B616 /* Build configuration list for PBXNativeTarget "Esimda | Essential English Words" */;
+			buildPhases = (
+				AF727E622A95E90C0068B616 /* Sources */,
+				AF727E632A95E90C0068B616 /* Frameworks */,
+				AF727E642A95E90C0068B616 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Esimda | Essential English Words";
+			productName = "Esimda | Essential English Words";
+			productReference = AF727E662A95E90C0068B616 /* Esimda | Essential English Words.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AF727E7B2A95E9100068B616 /* Esimda | Essential English WordsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF727E932A95E9100068B616 /* Build configuration list for PBXNativeTarget "Esimda | Essential English WordsTests" */;
+			buildPhases = (
+				AF727E782A95E9100068B616 /* Sources */,
+				AF727E792A95E9100068B616 /* Frameworks */,
+				AF727E7A2A95E9100068B616 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF727E7E2A95E9100068B616 /* PBXTargetDependency */,
+			);
+			name = "Esimda | Essential English WordsTests";
+			productName = "Esimda | Essential English WordsTests";
+			productReference = AF727E7C2A95E9100068B616 /* Esimda | Essential English WordsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AF727E852A95E9100068B616 /* Esimda | Essential English WordsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF727E962A95E9100068B616 /* Build configuration list for PBXNativeTarget "Esimda | Essential English WordsUITests" */;
+			buildPhases = (
+				AF727E822A95E9100068B616 /* Sources */,
+				AF727E832A95E9100068B616 /* Frameworks */,
+				AF727E842A95E9100068B616 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF727E882A95E9100068B616 /* PBXTargetDependency */,
+			);
+			name = "Esimda | Essential English WordsUITests";
+			productName = "Esimda | Essential English WordsUITests";
+			productReference = AF727E862A95E9100068B616 /* Esimda | Essential English WordsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF727E5E2A95E90C0068B616 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					AF727E652A95E90C0068B616 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					AF727E7B2A95E9100068B616 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = AF727E652A95E90C0068B616;
+					};
+					AF727E852A95E9100068B616 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = AF727E652A95E90C0068B616;
+					};
+				};
+			};
+			buildConfigurationList = AF727E612A95E90C0068B616 /* Build configuration list for PBXProject "Esimda | Essential English Words" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF727E5D2A95E90C0068B616;
+			productRefGroup = AF727E672A95E90C0068B616 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF727E652A95E90C0068B616 /* Esimda | Essential English Words */,
+				AF727E7B2A95E9100068B616 /* Esimda | Essential English WordsTests */,
+				AF727E852A95E9100068B616 /* Esimda | Essential English WordsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF727E642A95E90C0068B616 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF727E762A95E9100068B616 /* LaunchScreen.storyboard in Resources */,
+				AF727E732A95E9100068B616 /* Assets.xcassets in Resources */,
+				AF727E712A95E90C0068B616 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF727E7A2A95E9100068B616 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF727E842A95E9100068B616 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF727E622A95E90C0068B616 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF727E6E2A95E90C0068B616 /* ViewController.swift in Sources */,
+				AF727E6A2A95E90C0068B616 /* AppDelegate.swift in Sources */,
+				AF727E6C2A95E90C0068B616 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF727E782A95E9100068B616 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF727E812A95E9100068B616 /* Esimda___Essential_English_WordsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF727E822A95E9100068B616 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF727E8B2A95E9100068B616 /* Esimda___Essential_English_WordsUITests.swift in Sources */,
+				AF727E8D2A95E9100068B616 /* Esimda___Essential_English_WordsUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AF727E7E2A95E9100068B616 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF727E652A95E90C0068B616 /* Esimda | Essential English Words */;
+			targetProxy = AF727E7D2A95E9100068B616 /* PBXContainerItemProxy */;
+		};
+		AF727E882A95E9100068B616 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF727E652A95E90C0068B616 /* Esimda | Essential English Words */;
+			targetProxy = AF727E872A95E9100068B616 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AF727E6F2A95E90C0068B616 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF727E702A95E90C0068B616 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AF727E742A95E9100068B616 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF727E752A95E9100068B616 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AF727E8E2A95E9100068B616 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AF727E8F2A95E9100068B616 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF727E912A95E9100068B616 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9Y77ZZBLP4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Esimda | Essential English Words/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Ural.Esimda---Essential-English-Words";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AF727E922A95E9100068B616 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9Y77ZZBLP4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Esimda | Essential English Words/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Ural.Esimda---Essential-English-Words";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AF727E942A95E9100068B616 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9Y77ZZBLP4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Ural.Esimda---Essential-English-WordsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Esimda | Essential English Words.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Esimda | Essential English Words";
+			};
+			name = Debug;
+		};
+		AF727E952A95E9100068B616 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9Y77ZZBLP4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Ural.Esimda---Essential-English-WordsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Esimda | Essential English Words.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Esimda | Essential English Words";
+			};
+			name = Release;
+		};
+		AF727E972A95E9100068B616 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9Y77ZZBLP4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Ural.Esimda---Essential-English-WordsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Esimda | Essential English Words";
+			};
+			name = Debug;
+		};
+		AF727E982A95E9100068B616 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9Y77ZZBLP4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Ural.Esimda---Essential-English-WordsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Esimda | Essential English Words";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF727E612A95E90C0068B616 /* Build configuration list for PBXProject "Esimda | Essential English Words" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF727E8E2A95E9100068B616 /* Debug */,
+				AF727E8F2A95E9100068B616 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF727E902A95E9100068B616 /* Build configuration list for PBXNativeTarget "Esimda | Essential English Words" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF727E912A95E9100068B616 /* Debug */,
+				AF727E922A95E9100068B616 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF727E932A95E9100068B616 /* Build configuration list for PBXNativeTarget "Esimda | Essential English WordsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF727E942A95E9100068B616 /* Debug */,
+				AF727E952A95E9100068B616 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF727E962A95E9100068B616 /* Build configuration list for PBXNativeTarget "Esimda | Essential English WordsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF727E972A95E9100068B616 /* Debug */,
+				AF727E982A95E9100068B616 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF727E5E2A95E90C0068B616 /* Project object */;
+}
