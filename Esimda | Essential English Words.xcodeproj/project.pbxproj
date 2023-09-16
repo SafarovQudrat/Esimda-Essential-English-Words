@@ -7,15 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		672CD615C8067989E297A8EC /* libPods-Esimda | Essential English Words.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 84E496D28D1100B962506129 /* libPods-Esimda | Essential English Words.a */; };
+		AF5C86432A98CF78005223D3 /* ModuleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5C86412A98CF78005223D3 /* ModuleVC.swift */; };
+		AF5C86442A98CF79005223D3 /* ModuleVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF5C86422A98CF78005223D3 /* ModuleVC.xib */; };
+		AF5C86462A98D238005223D3 /* InteractivePopRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5C86452A98D238005223D3 /* InteractivePopRecognizer.swift */; };
 		AF727E6A2A95E90C0068B616 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF727E692A95E90C0068B616 /* AppDelegate.swift */; };
-		AF727E6C2A95E90C0068B616 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF727E6B2A95E90C0068B616 /* SceneDelegate.swift */; };
-		AF727E6E2A95E90C0068B616 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF727E6D2A95E90C0068B616 /* ViewController.swift */; };
-		AF727E712A95E90C0068B616 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF727E6F2A95E90C0068B616 /* Main.storyboard */; };
 		AF727E732A95E9100068B616 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF727E722A95E9100068B616 /* Assets.xcassets */; };
 		AF727E762A95E9100068B616 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF727E742A95E9100068B616 /* LaunchScreen.storyboard */; };
-		AF727E812A95E9100068B616 /* Esimda___Essential_English_WordsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF727E802A95E9100068B616 /* Esimda___Essential_English_WordsTests.swift */; };
-		AF727E8B2A95E9100068B616 /* Esimda___Essential_English_WordsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF727E8A2A95E9100068B616 /* Esimda___Essential_English_WordsUITests.swift */; };
-		AF727E8D2A95E9100068B616 /* Esimda___Essential_English_WordsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF727E8C2A95E9100068B616 /* Esimda___Essential_English_WordsUITestsLaunchTests.swift */; };
+		AF727E9A2A95EA630068B616 /* Ex+UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF727E992A95EA630068B616 /* Ex+UIViewController.swift */; };
+		AF727E9D2A95EA930068B616 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF727E9B2A95EA930068B616 /* HomeVC.swift */; };
+		AF727E9E2A95EA930068B616 /* HomeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF727E9C2A95EA930068B616 /* HomeVC.xib */; };
+		AF727EA62A95EC960068B616 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF727EA52A95EC960068B616 /* Reachability.swift */; };
+		AF727EA82A95ED090068B616 /* NotConnectionAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF727EA72A95ED090068B616 /* NotConnectionAlert.swift */; };
+		AF727EAB2A95ED330068B616 /* ErrorAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF727EAA2A95ED330068B616 /* ErrorAlert.swift */; };
+		AF727EAD2A95ED600068B616 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF727EAC2A95ED600068B616 /* Alert.swift */; };
+		AF727EB02A95EDFF0068B616 /* Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF727EAF2A95EDFF0068B616 /* Loader.swift */; };
+		AF727EB32A95EEBD0068B616 /* Ex+Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF727EB22A95EEBD0068B616 /* Ex+Color.swift */; };
+		AF727EB52A95EF020068B616 /* Ex+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF727EB42A95EF020068B616 /* Ex+UIView.swift */; };
+		AF727EB72A95EF6F0068B616 /* Ex+NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF727EB62A95EF6F0068B616 /* Ex+NavigationBar.swift */; };
+		AF727ECF2A9737920068B616 /* HomeTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF727ECD2A9737920068B616 /* HomeTVC.swift */; };
+		AF727ED02A9737920068B616 /* HomeTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF727ECE2A9737920068B616 /* HomeTVC.xib */; };
+		AF727EDD2A973E850068B616 /* inter_bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AF727ED52A973E850068B616 /* inter_bold.ttf */; };
+		AF727EDE2A973E850068B616 /* inter_black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AF727ED62A973E850068B616 /* inter_black.ttf */; };
+		AF727EDF2A973E850068B616 /* inter_extraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AF727ED72A973E850068B616 /* inter_extraBold.ttf */; };
+		AF727EE02A973E850068B616 /* inter_thin_BETA.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AF727ED82A973E850068B616 /* inter_thin_BETA.ttf */; };
+		AF727EE12A973E850068B616 /* inter_light_BETA.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AF727ED92A973E850068B616 /* inter_light_BETA.ttf */; };
+		AF727EE22A973E850068B616 /* inter_semiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AF727EDA2A973E850068B616 /* inter_semiBold.ttf */; };
+		AF727EE32A973E850068B616 /* inter_medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AF727EDB2A973E850068B616 /* inter_medium.ttf */; };
+		AF727EE42A973E850068B616 /* inter_regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AF727EDC2A973E850068B616 /* inter_regular.ttf */; };
+		AF727EE72A97542E0068B616 /* ModuleCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF727EE52A97542E0068B616 /* ModuleCVC.swift */; };
+		AF727EE82A97542F0068B616 /* ModuleCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF727EE62A97542E0068B616 /* ModuleCVC.xib */; };
+		AF727EEA2A9766EA0068B616 /* ModuleDM.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF727EE92A9766EA0068B616 /* ModuleDM.swift */; };
+		AF727EEC2A97A9550068B616 /* ModuleNameDM.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF727EEB2A97A9550068B616 /* ModuleNameDM.swift */; };
+		AF727EEE2A97B19C0068B616 /* Ex+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF727EED2A97B19C0068B616 /* Ex+String.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,19 +60,45 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		84E496D28D1100B962506129 /* libPods-Esimda | Essential English Words.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Esimda | Essential English Words.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8949BCD8BF22A70E907CDF9B /* Pods-Esimda | Essential English Words.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Esimda | Essential English Words.debug.xcconfig"; path = "Target Support Files/Pods-Esimda | Essential English Words/Pods-Esimda | Essential English Words.debug.xcconfig"; sourceTree = "<group>"; };
+		8E3861EA76EFA57946185A8C /* Pods-Esimda | Essential English Words.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Esimda | Essential English Words.release.xcconfig"; path = "Target Support Files/Pods-Esimda | Essential English Words/Pods-Esimda | Essential English Words.release.xcconfig"; sourceTree = "<group>"; };
+		AF5C86412A98CF78005223D3 /* ModuleVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleVC.swift; sourceTree = "<group>"; };
+		AF5C86422A98CF78005223D3 /* ModuleVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ModuleVC.xib; sourceTree = "<group>"; };
+		AF5C86452A98D238005223D3 /* InteractivePopRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractivePopRecognizer.swift; sourceTree = "<group>"; };
 		AF727E662A95E90C0068B616 /* Esimda | Essential English Words.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Esimda | Essential English Words.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF727E692A95E90C0068B616 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AF727E6B2A95E90C0068B616 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AF727E6D2A95E90C0068B616 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		AF727E702A95E90C0068B616 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AF727E722A95E9100068B616 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF727E752A95E9100068B616 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AF727E772A95E9100068B616 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AF727E7C2A95E9100068B616 /* Esimda | Essential English WordsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Esimda | Essential English WordsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		AF727E802A95E9100068B616 /* Esimda___Essential_English_WordsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Esimda___Essential_English_WordsTests.swift"; sourceTree = "<group>"; };
 		AF727E862A95E9100068B616 /* Esimda | Essential English WordsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Esimda | Essential English WordsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		AF727E8A2A95E9100068B616 /* Esimda___Essential_English_WordsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Esimda___Essential_English_WordsUITests.swift"; sourceTree = "<group>"; };
-		AF727E8C2A95E9100068B616 /* Esimda___Essential_English_WordsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Esimda___Essential_English_WordsUITestsLaunchTests.swift"; sourceTree = "<group>"; };
+		AF727E992A95EA630068B616 /* Ex+UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ex+UIViewController.swift"; sourceTree = "<group>"; };
+		AF727E9B2A95EA930068B616 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		AF727E9C2A95EA930068B616 /* HomeVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeVC.xib; sourceTree = "<group>"; };
+		AF727EA52A95EC960068B616 /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		AF727EA72A95ED090068B616 /* NotConnectionAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotConnectionAlert.swift; sourceTree = "<group>"; };
+		AF727EAA2A95ED330068B616 /* ErrorAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorAlert.swift; sourceTree = "<group>"; };
+		AF727EAC2A95ED600068B616 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		AF727EAF2A95EDFF0068B616 /* Loader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loader.swift; sourceTree = "<group>"; };
+		AF727EB22A95EEBD0068B616 /* Ex+Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ex+Color.swift"; sourceTree = "<group>"; };
+		AF727EB42A95EF020068B616 /* Ex+UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ex+UIView.swift"; sourceTree = "<group>"; };
+		AF727EB62A95EF6F0068B616 /* Ex+NavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ex+NavigationBar.swift"; sourceTree = "<group>"; };
+		AF727ECD2A9737920068B616 /* HomeTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTVC.swift; sourceTree = "<group>"; };
+		AF727ECE2A9737920068B616 /* HomeTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeTVC.xib; sourceTree = "<group>"; };
+		AF727ED52A973E850068B616 /* inter_bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = inter_bold.ttf; sourceTree = "<group>"; };
+		AF727ED62A973E850068B616 /* inter_black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = inter_black.ttf; sourceTree = "<group>"; };
+		AF727ED72A973E850068B616 /* inter_extraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = inter_extraBold.ttf; sourceTree = "<group>"; };
+		AF727ED82A973E850068B616 /* inter_thin_BETA.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = inter_thin_BETA.ttf; sourceTree = "<group>"; };
+		AF727ED92A973E850068B616 /* inter_light_BETA.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = inter_light_BETA.ttf; sourceTree = "<group>"; };
+		AF727EDA2A973E850068B616 /* inter_semiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = inter_semiBold.ttf; sourceTree = "<group>"; };
+		AF727EDB2A973E850068B616 /* inter_medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = inter_medium.ttf; sourceTree = "<group>"; };
+		AF727EDC2A973E850068B616 /* inter_regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = inter_regular.ttf; sourceTree = "<group>"; };
+		AF727EE52A97542E0068B616 /* ModuleCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleCVC.swift; sourceTree = "<group>"; };
+		AF727EE62A97542E0068B616 /* ModuleCVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ModuleCVC.xib; sourceTree = "<group>"; };
+		AF727EE92A9766EA0068B616 /* ModuleDM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleDM.swift; sourceTree = "<group>"; };
+		AF727EEB2A97A9550068B616 /* ModuleNameDM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleNameDM.swift; sourceTree = "<group>"; };
+		AF727EED2A97B19C0068B616 /* Ex+String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ex+String.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				672CD615C8067989E297A8EC /* libPods-Esimda | Essential English Words.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,13 +127,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		51E11C610BEA7E1C6A7DE786 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8949BCD8BF22A70E907CDF9B /* Pods-Esimda | Essential English Words.debug.xcconfig */,
+				8E3861EA76EFA57946185A8C /* Pods-Esimda | Essential English Words.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		62DEAA5A9AFDD7A5FF189468 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84E496D28D1100B962506129 /* libPods-Esimda | Essential English Words.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		AF727E5D2A95E90C0068B616 = {
 			isa = PBXGroup;
 			children = (
 				AF727E682A95E90C0068B616 /* Esimda | Essential English Words */,
-				AF727E7F2A95E9100068B616 /* Esimda | Essential English WordsTests */,
-				AF727E892A95E9100068B616 /* Esimda | Essential English WordsUITests */,
 				AF727E672A95E90C0068B616 /* Products */,
+				51E11C610BEA7E1C6A7DE786 /* Pods */,
+				62DEAA5A9AFDD7A5FF189468 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,32 +167,161 @@
 		AF727E682A95E90C0068B616 /* Esimda | Essential English Words */ = {
 			isa = PBXGroup;
 			children = (
-				AF727E692A95E90C0068B616 /* AppDelegate.swift */,
-				AF727E6B2A95E90C0068B616 /* SceneDelegate.swift */,
-				AF727E6D2A95E90C0068B616 /* ViewController.swift */,
-				AF727E6F2A95E90C0068B616 /* Main.storyboard */,
+				AF727E9F2A95EBCE0068B616 /* Network */,
+				AF727EA02A95EBE20068B616 /* Helper */,
+				AF727EA12A95EBF20068B616 /* Root */,
+				AF727EA22A95EC000068B616 /* Model */,
+				AF727EA32A95EC060068B616 /* View */,
+				AF727EA42A95EC0D0068B616 /* Controller */,
 				AF727E722A95E9100068B616 /* Assets.xcassets */,
-				AF727E742A95E9100068B616 /* LaunchScreen.storyboard */,
 				AF727E772A95E9100068B616 /* Info.plist */,
+				AF727EB92A95EFD40068B616 /* Audios */,
 			);
 			path = "Esimda | Essential English Words";
 			sourceTree = "<group>";
 		};
-		AF727E7F2A95E9100068B616 /* Esimda | Essential English WordsTests */ = {
+		AF727E9F2A95EBCE0068B616 /* Network */ = {
 			isa = PBXGroup;
 			children = (
-				AF727E802A95E9100068B616 /* Esimda___Essential_English_WordsTests.swift */,
 			);
-			path = "Esimda | Essential English WordsTests";
+			path = Network;
 			sourceTree = "<group>";
 		};
-		AF727E892A95E9100068B616 /* Esimda | Essential English WordsUITests */ = {
+		AF727EA02A95EBE20068B616 /* Helper */ = {
 			isa = PBXGroup;
 			children = (
-				AF727E8A2A95E9100068B616 /* Esimda___Essential_English_WordsUITests.swift */,
-				AF727E8C2A95E9100068B616 /* Esimda___Essential_English_WordsUITestsLaunchTests.swift */,
+				AF727EA92A95ED130068B616 /* Alert */,
+				AF727EAE2A95EDED0068B616 /* Loader */,
+				AF727EB12A95EEAB0068B616 /* Extensions */,
+				AF727EB82A95EF8B0068B616 /* Inter Font */,
+				AF727EA52A95EC960068B616 /* Reachability.swift */,
+				AF5C86452A98D238005223D3 /* InteractivePopRecognizer.swift */,
 			);
-			path = "Esimda | Essential English WordsUITests";
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		AF727EA12A95EBF20068B616 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				AF727E692A95E90C0068B616 /* AppDelegate.swift */,
+				AF727E742A95E9100068B616 /* LaunchScreen.storyboard */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		AF727EA22A95EC000068B616 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AF727EE92A9766EA0068B616 /* ModuleDM.swift */,
+				AF727EEB2A97A9550068B616 /* ModuleNameDM.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AF727EA32A95EC060068B616 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AF727ED22A9737A90068B616 /* CVC */,
+				AF727ED12A9737A20068B616 /* TVC */,
+				AF727E9C2A95EA930068B616 /* HomeVC.xib */,
+				AF5C86422A98CF78005223D3 /* ModuleVC.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AF727EA42A95EC0D0068B616 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AF727ED42A9737B50068B616 /* CVC */,
+				AF727ED32A9737B00068B616 /* TVC */,
+				AF727E9B2A95EA930068B616 /* HomeVC.swift */,
+				AF5C86412A98CF78005223D3 /* ModuleVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		AF727EA92A95ED130068B616 /* Alert */ = {
+			isa = PBXGroup;
+			children = (
+				AF727EAC2A95ED600068B616 /* Alert.swift */,
+				AF727EA72A95ED090068B616 /* NotConnectionAlert.swift */,
+				AF727EAA2A95ED330068B616 /* ErrorAlert.swift */,
+			);
+			path = Alert;
+			sourceTree = "<group>";
+		};
+		AF727EAE2A95EDED0068B616 /* Loader */ = {
+			isa = PBXGroup;
+			children = (
+				AF727EAF2A95EDFF0068B616 /* Loader.swift */,
+			);
+			path = Loader;
+			sourceTree = "<group>";
+		};
+		AF727EB12A95EEAB0068B616 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				AF727EB22A95EEBD0068B616 /* Ex+Color.swift */,
+				AF727EB42A95EF020068B616 /* Ex+UIView.swift */,
+				AF727EB62A95EF6F0068B616 /* Ex+NavigationBar.swift */,
+				AF727E992A95EA630068B616 /* Ex+UIViewController.swift */,
+				AF727EED2A97B19C0068B616 /* Ex+String.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		AF727EB82A95EF8B0068B616 /* Inter Font */ = {
+			isa = PBXGroup;
+			children = (
+				AF727ED62A973E850068B616 /* inter_black.ttf */,
+				AF727ED52A973E850068B616 /* inter_bold.ttf */,
+				AF727ED72A973E850068B616 /* inter_extraBold.ttf */,
+				AF727ED92A973E850068B616 /* inter_light_BETA.ttf */,
+				AF727EDB2A973E850068B616 /* inter_medium.ttf */,
+				AF727EDC2A973E850068B616 /* inter_regular.ttf */,
+				AF727EDA2A973E850068B616 /* inter_semiBold.ttf */,
+				AF727ED82A973E850068B616 /* inter_thin_BETA.ttf */,
+			);
+			path = "Inter Font";
+			sourceTree = "<group>";
+		};
+		AF727EB92A95EFD40068B616 /* Audios */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Audios;
+			sourceTree = "<group>";
+		};
+		AF727ED12A9737A20068B616 /* TVC */ = {
+			isa = PBXGroup;
+			children = (
+				AF727ECE2A9737920068B616 /* HomeTVC.xib */,
+			);
+			path = TVC;
+			sourceTree = "<group>";
+		};
+		AF727ED22A9737A90068B616 /* CVC */ = {
+			isa = PBXGroup;
+			children = (
+				AF727EE62A97542E0068B616 /* ModuleCVC.xib */,
+			);
+			path = CVC;
+			sourceTree = "<group>";
+		};
+		AF727ED32A9737B00068B616 /* TVC */ = {
+			isa = PBXGroup;
+			children = (
+				AF727ECD2A9737920068B616 /* HomeTVC.swift */,
+			);
+			path = TVC;
+			sourceTree = "<group>";
+		};
+		AF727ED42A9737B50068B616 /* CVC */ = {
+			isa = PBXGroup;
+			children = (
+				AF727EE52A97542E0068B616 /* ModuleCVC.swift */,
+			);
+			path = CVC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,6 +331,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AF727E902A95E9100068B616 /* Build configuration list for PBXNativeTarget "Esimda | Essential English Words" */;
 			buildPhases = (
+				BA672641C9D6B120D567A0C4 /* [CP] Check Pods Manifest.lock */,
 				AF727E622A95E90C0068B616 /* Sources */,
 				AF727E632A95E90C0068B616 /* Frameworks */,
 				AF727E642A95E90C0068B616 /* Resources */,
@@ -231,9 +429,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF727EE22A973E850068B616 /* inter_semiBold.ttf in Resources */,
+				AF727EE32A973E850068B616 /* inter_medium.ttf in Resources */,
+				AF727EDD2A973E850068B616 /* inter_bold.ttf in Resources */,
+				AF727EDE2A973E850068B616 /* inter_black.ttf in Resources */,
+				AF727EE42A973E850068B616 /* inter_regular.ttf in Resources */,
 				AF727E762A95E9100068B616 /* LaunchScreen.storyboard in Resources */,
+				AF5C86442A98CF79005223D3 /* ModuleVC.xib in Resources */,
+				AF727EE12A973E850068B616 /* inter_light_BETA.ttf in Resources */,
+				AF727EDF2A973E850068B616 /* inter_extraBold.ttf in Resources */,
+				AF727E9E2A95EA930068B616 /* HomeVC.xib in Resources */,
+				AF727ED02A9737920068B616 /* HomeTVC.xib in Resources */,
+				AF727EE02A973E850068B616 /* inter_thin_BETA.ttf in Resources */,
 				AF727E732A95E9100068B616 /* Assets.xcassets in Resources */,
-				AF727E712A95E90C0068B616 /* Main.storyboard in Resources */,
+				AF727EE82A97542F0068B616 /* ModuleCVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,14 +462,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		BA672641C9D6B120D567A0C4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Esimda | Essential English Words-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AF727E622A95E90C0068B616 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF727E6E2A95E90C0068B616 /* ViewController.swift in Sources */,
+				AF727E9D2A95EA930068B616 /* HomeVC.swift in Sources */,
+				AF727EEE2A97B19C0068B616 /* Ex+String.swift in Sources */,
+				AF5C86432A98CF78005223D3 /* ModuleVC.swift in Sources */,
+				AF727EAB2A95ED330068B616 /* ErrorAlert.swift in Sources */,
 				AF727E6A2A95E90C0068B616 /* AppDelegate.swift in Sources */,
-				AF727E6C2A95E90C0068B616 /* SceneDelegate.swift in Sources */,
+				AF727EA82A95ED090068B616 /* NotConnectionAlert.swift in Sources */,
+				AF727EA62A95EC960068B616 /* Reachability.swift in Sources */,
+				AF727EB52A95EF020068B616 /* Ex+UIView.swift in Sources */,
+				AF727EEA2A9766EA0068B616 /* ModuleDM.swift in Sources */,
+				AF727EE72A97542E0068B616 /* ModuleCVC.swift in Sources */,
+				AF5C86462A98D238005223D3 /* InteractivePopRecognizer.swift in Sources */,
+				AF727EEC2A97A9550068B616 /* ModuleNameDM.swift in Sources */,
+				AF727ECF2A9737920068B616 /* HomeTVC.swift in Sources */,
+				AF727E9A2A95EA630068B616 /* Ex+UIViewController.swift in Sources */,
+				AF727EB02A95EDFF0068B616 /* Loader.swift in Sources */,
+				AF727EB32A95EEBD0068B616 /* Ex+Color.swift in Sources */,
+				AF727EB72A95EF6F0068B616 /* Ex+NavigationBar.swift in Sources */,
+				AF727EAD2A95ED600068B616 /* Alert.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +517,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF727E812A95E9100068B616 /* Esimda___Essential_English_WordsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,8 +524,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF727E8B2A95E9100068B616 /* Esimda___Essential_English_WordsUITests.swift in Sources */,
-				AF727E8D2A95E9100068B616 /* Esimda___Essential_English_WordsUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +543,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		AF727E6F2A95E90C0068B616 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AF727E702A95E90C0068B616 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		AF727E742A95E9100068B616 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -432,6 +670,7 @@
 		};
 		AF727E912A95E9100068B616 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8949BCD8BF22A70E907CDF9B /* Pods-Esimda | Essential English Words.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -442,7 +681,6 @@
 				INFOPLIST_FILE = "Esimda | Essential English Words/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -460,6 +698,7 @@
 		};
 		AF727E922A95E9100068B616 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E3861EA76EFA57946185A8C /* Pods-Esimda | Essential English Words.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -470,7 +709,6 @@
 				INFOPLIST_FILE = "Esimda | Essential English Words/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

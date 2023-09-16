@@ -1,0 +1,6 @@
+module Pods_Esimda___Essential_English_Words {
+  umbrella header "Pods-Esimda | Essential English Words-umbrella.h"
+
+  export *
+  module * { export * }
+}
