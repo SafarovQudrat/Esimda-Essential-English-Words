@@ -17,7 +17,9 @@ var window: UIWindow?
         
         window = UIWindow(frame: UIScreen.main.bounds)
         let vc = HomeVC()
-        window?.rootViewController = vc
+        let navvc = UINavigationController(rootViewController: vc)
+        navvc.navigationBar.isHidden = true
+        window?.rootViewController = navvc
         window?.makeKeyAndVisible()
         
         return true

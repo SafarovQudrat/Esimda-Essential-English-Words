@@ -35,7 +35,7 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="EOo-Zy-flh">
                                         <rect key="frame" x="0.0" y="5" width="403" height="70"/>
                                         <subviews>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Essential_1" translatesAutoresizingMaskIntoConstraints="NO" id="IZ1-R4-YPh">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="myWords" translatesAutoresizingMaskIntoConstraints="NO" id="IZ1-R4-YPh">
                                                 <rect key="frame" x="0.0" y="0.0" width="60" height="70"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="70" id="BZh-2V-arS"/>
@@ -130,8 +130,8 @@
         </tableViewCell>
     </objects>
     <resources>
-        <image name="Essential_1" width="36" height="50"/>
         <image name="checkMark_Done" width="25" height="26"/>
+        <image name="myWords" width="35" height="50"/>
         <namedColor name="tGray1">
             <color red="0.4309999942779541" green="0.41600000858306885" blue="0.48600000143051147" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>

@@ -10,6 +10,8 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ModuleVC" customModule="Esimda___Essential_English_Words" customModuleProvider="target">
             <connections>
+                <outlet property="backImg" destination="n5Y-qd-gNb" id="ifJ-K2-yI6"/>
+                <outlet property="backImgV" destination="rTp-oy-QoW" id="nic-oP-ZOD"/>
                 <outlet property="heightOfTableview" destination="kMI-VZ-Nla" id="AGZ-AS-zqk"/>
                 <outlet property="scrollView" destination="0vp-1c-KrO" id="dkO-rb-VxP"/>
                 <outlet property="tableView" destination="G3B-4w-o2W" id="osg-U5-l12"/>
@@ -25,10 +27,10 @@
                     <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                 </imageView>
                 <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rTp-oy-QoW">
-                    <rect key="frame" x="16" y="75" width="361" height="777"/>
+                    <rect key="frame" x="16" y="75" width="361" height="747"/>
                     <subviews>
                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="emptyModules" translatesAutoresizingMaskIntoConstraints="NO" id="n5Y-qd-gNb">
-                            <rect key="frame" x="55.666666666666686" y="263.66666666666669" width="250" height="250.00000000000006"/>
+                            <rect key="frame" x="55.666666666666686" y="248.66666666666669" width="250" height="250"/>
                             <constraints>
                                 <constraint firstAttribute="width" constant="250" id="UZS-JE-zeM"/>
                                 <constraint firstAttribute="height" constant="250" id="ZFI-FN-OWt"/>
@@ -80,7 +82,7 @@
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
             <constraints>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="8l1-xX-1T0" secondAttribute="trailing" id="2V4-GK-r4x"/>
-                <constraint firstAttribute="bottom" secondItem="rTp-oy-QoW" secondAttribute="bottom" id="HQ6-qx-8F7"/>
+                <constraint firstAttribute="bottom" secondItem="rTp-oy-QoW" secondAttribute="bottom" constant="30" id="HQ6-qx-8F7"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="rTp-oy-QoW" secondAttribute="trailing" constant="16" id="ID9-gr-KrS"/>
                 <constraint firstItem="0vp-1c-KrO" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="16" id="Mb4-l3-8Jd"/>
                 <constraint firstAttribute="bottom" secondItem="8l1-xX-1T0" secondAttribute="bottom" id="OMh-gy-qST"/>

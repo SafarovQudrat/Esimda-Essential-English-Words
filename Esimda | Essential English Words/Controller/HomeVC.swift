@@ -82,6 +82,10 @@ class HomeVC: UIViewController {
         }
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        self.navigationController?.navigationBar.isHidden = true
+    }
+    
     @IBAction func changeLangTapped(_ sender: Any) {
         if mainLangLbl.text == "en" {
             mainLangLbl.text = "uz"
@@ -105,16 +109,25 @@ extension HomeVC: UITableViewDelegate {
             }
             arrModuleDM[0][indexPath.row].isLearned = true
         } else {
+            
             if indexPath.row == 0 {
                 let vc = ModuleVC(nibName: "ModuleVC", bundle: nil)
-                let navVC = UINavigationController(rootViewController: vc)
-//                navigationController?.pushViewController(navVC, animated: true)
-                navVC.navigationBar.update(backroundColor: .white, titleColor: .black)
-                navVC.modalPresentationStyle = .overFullScreen
-                present(navVC, animated: true)
-//                self.navigationController?.pushViewController(vc, animated: true)
+                self.navigationItem.backButtonTitle = ""
+                self.navigationController?.pushViewController(vc, animated: true)
+                
+            }else if indexPath.row == 1 {
+                let vc = MyWordsVC(nibName: "MyWordsVC", bundle: nil)
+                self.navigationItem.backButtonTitle = ""
+                self.navigationController?.pushViewController(vc, animated: true)
             }
+                
+            
         }
+        
+        
+        
+        
+        
         tableView.reloadData()
     }
     

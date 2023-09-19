@@ -22,6 +22,11 @@ class ModuleVC: UIViewController {
     
     @IBOutlet weak var scrollView: UIScrollView!
     
+    @IBOutlet weak var backImg: UIImageView!
+    
+    @IBOutlet weak var backImgV: UIView!
+    
+    
     
     var popRecognizer: InteractivePopRecognizer?
     
@@ -47,8 +52,10 @@ class ModuleVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-//        setNavigation()
+        setNavigation()
+       
         scrollView.isHidden = arrModules.isEmpty ? true : false
+        backImgV.isHidden = arrModules.isEmpty ? false : true
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -57,13 +64,15 @@ class ModuleVC: UIViewController {
     }
     
     func setNavigation() {
+        self.navigationController?.navigationBar.isHidden = false
+        self.navigationController?.navigationBar.update(backroundColor: .white)
         let backBtn = UIBarButtonItem(image: UIImage(named: "back"), style: .done, target: self, action: #selector(backTapped))
         backBtn.tintColor = .black
         navigationItem.leftBarButtonItem = backBtn
     }
     
     @objc func backTapped() {
-        navigationController?.popViewController(animated: false)
+        navigationController?.popViewController(animated: true)
     }
 
     private func setInteractiveRecognizer() {

@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		529F099E2AB828F2007C05EE /* MyWordsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529F099C2AB828F2007C05EE /* MyWordsVC.swift */; };
+		529F099F2AB828F2007C05EE /* MyWordsVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 529F099D2AB828F2007C05EE /* MyWordsVC.xib */; };
+		529F09A22AB83326007C05EE /* AddNewMyWord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529F09A02AB83326007C05EE /* AddNewMyWord.swift */; };
+		529F09A32AB83326007C05EE /* AddNewMyWord.xib in Resources */ = {isa = PBXBuildFile; fileRef = 529F09A12AB83326007C05EE /* AddNewMyWord.xib */; };
+		529F09AA2AB833AB007C05EE /* NewWordSubTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529F09A82AB833AB007C05EE /* NewWordSubTVC.swift */; };
+		529F09AB2AB833AB007C05EE /* NewWordSubTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 529F09A92AB833AB007C05EE /* NewWordSubTVC.xib */; };
 		672CD615C8067989E297A8EC /* libPods-Esimda | Essential English Words.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 84E496D28D1100B962506129 /* libPods-Esimda | Essential English Words.a */; };
 		AF5C86432A98CF78005223D3 /* ModuleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5C86412A98CF78005223D3 /* ModuleVC.swift */; };
 		AF5C86442A98CF79005223D3 /* ModuleVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF5C86422A98CF78005223D3 /* ModuleVC.xib */; };
@@ -60,6 +66,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		529F099C2AB828F2007C05EE /* MyWordsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWordsVC.swift; sourceTree = "<group>"; };
+		529F099D2AB828F2007C05EE /* MyWordsVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyWordsVC.xib; sourceTree = "<group>"; };
+		529F09A02AB83326007C05EE /* AddNewMyWord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewMyWord.swift; sourceTree = "<group>"; };
+		529F09A12AB83326007C05EE /* AddNewMyWord.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddNewMyWord.xib; sourceTree = "<group>"; };
+		529F09A82AB833AB007C05EE /* NewWordSubTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewWordSubTVC.swift; sourceTree = "<group>"; };
+		529F09A92AB833AB007C05EE /* NewWordSubTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewWordSubTVC.xib; sourceTree = "<group>"; };
 		84E496D28D1100B962506129 /* libPods-Esimda | Essential English Words.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Esimda | Essential English Words.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8949BCD8BF22A70E907CDF9B /* Pods-Esimda | Essential English Words.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Esimda | Essential English Words.debug.xcconfig"; path = "Target Support Files/Pods-Esimda | Essential English Words/Pods-Esimda | Essential English Words.debug.xcconfig"; sourceTree = "<group>"; };
 		8E3861EA76EFA57946185A8C /* Pods-Esimda | Essential English Words.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Esimda | Essential English Words.release.xcconfig"; path = "Target Support Files/Pods-Esimda | Essential English Words/Pods-Esimda | Essential English Words.release.xcconfig"; sourceTree = "<group>"; };
@@ -225,6 +237,8 @@
 				AF727ED12A9737A20068B616 /* TVC */,
 				AF727E9C2A95EA930068B616 /* HomeVC.xib */,
 				AF5C86422A98CF78005223D3 /* ModuleVC.xib */,
+				529F099D2AB828F2007C05EE /* MyWordsVC.xib */,
+				529F09A12AB83326007C05EE /* AddNewMyWord.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -236,6 +250,8 @@
 				AF727ED32A9737B00068B616 /* TVC */,
 				AF727E9B2A95EA930068B616 /* HomeVC.swift */,
 				AF5C86412A98CF78005223D3 /* ModuleVC.swift */,
+				529F099C2AB828F2007C05EE /* MyWordsVC.swift */,
+				529F09A02AB83326007C05EE /* AddNewMyWord.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -296,6 +312,7 @@
 			isa = PBXGroup;
 			children = (
 				AF727ECE2A9737920068B616 /* HomeTVC.xib */,
+				529F09A92AB833AB007C05EE /* NewWordSubTVC.xib */,
 			);
 			path = TVC;
 			sourceTree = "<group>";
@@ -312,6 +329,7 @@
 			isa = PBXGroup;
 			children = (
 				AF727ECD2A9737920068B616 /* HomeTVC.swift */,
+				529F09A82AB833AB007C05EE /* NewWordSubTVC.swift */,
 			);
 			path = TVC;
 			sourceTree = "<group>";
@@ -435,10 +453,13 @@
 				AF727EDE2A973E850068B616 /* inter_black.ttf in Resources */,
 				AF727EE42A973E850068B616 /* inter_regular.ttf in Resources */,
 				AF727E762A95E9100068B616 /* LaunchScreen.storyboard in Resources */,
+				529F09A32AB83326007C05EE /* AddNewMyWord.xib in Resources */,
 				AF5C86442A98CF79005223D3 /* ModuleVC.xib in Resources */,
 				AF727EE12A973E850068B616 /* inter_light_BETA.ttf in Resources */,
+				529F09AB2AB833AB007C05EE /* NewWordSubTVC.xib in Resources */,
 				AF727EDF2A973E850068B616 /* inter_extraBold.ttf in Resources */,
 				AF727E9E2A95EA930068B616 /* HomeVC.xib in Resources */,
+				529F099F2AB828F2007C05EE /* MyWordsVC.xib in Resources */,
 				AF727ED02A9737920068B616 /* HomeTVC.xib in Resources */,
 				AF727EE02A973E850068B616 /* inter_thin_BETA.ttf in Resources */,
 				AF727E732A95E9100068B616 /* Assets.xcassets in Resources */,
@@ -498,6 +519,7 @@
 				AF727EAB2A95ED330068B616 /* ErrorAlert.swift in Sources */,
 				AF727E6A2A95E90C0068B616 /* AppDelegate.swift in Sources */,
 				AF727EA82A95ED090068B616 /* NotConnectionAlert.swift in Sources */,
+				529F09A22AB83326007C05EE /* AddNewMyWord.swift in Sources */,
 				AF727EA62A95EC960068B616 /* Reachability.swift in Sources */,
 				AF727EB52A95EF020068B616 /* Ex+UIView.swift in Sources */,
 				AF727EEA2A9766EA0068B616 /* ModuleDM.swift in Sources */,
@@ -506,6 +528,8 @@
 				AF727EEC2A97A9550068B616 /* ModuleNameDM.swift in Sources */,
 				AF727ECF2A9737920068B616 /* HomeTVC.swift in Sources */,
 				AF727E9A2A95EA630068B616 /* Ex+UIViewController.swift in Sources */,
+				529F099E2AB828F2007C05EE /* MyWordsVC.swift in Sources */,
+				529F09AA2AB833AB007C05EE /* NewWordSubTVC.swift in Sources */,
 				AF727EB02A95EDFF0068B616 /* Loader.swift in Sources */,
 				AF727EB32A95EEBD0068B616 /* Ex+Color.swift in Sources */,
 				AF727EB72A95EF6F0068B616 /* Ex+NavigationBar.swift in Sources */,
