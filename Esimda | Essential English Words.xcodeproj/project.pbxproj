@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		529982EC2ABBF49A001F9DFE /* WordsDM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529982EB2ABBF49A001F9DFE /* WordsDM.swift */; };
 		529F099E2AB828F2007C05EE /* MyWordsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529F099C2AB828F2007C05EE /* MyWordsVC.swift */; };
 		529F099F2AB828F2007C05EE /* MyWordsVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 529F099D2AB828F2007C05EE /* MyWordsVC.xib */; };
 		529F09A22AB83326007C05EE /* AddNewMyWord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529F09A02AB83326007C05EE /* AddNewMyWord.swift */; };
@@ -66,6 +67,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		529982EB2ABBF49A001F9DFE /* WordsDM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordsDM.swift; sourceTree = "<group>"; };
 		529F099C2AB828F2007C05EE /* MyWordsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWordsVC.swift; sourceTree = "<group>"; };
 		529F099D2AB828F2007C05EE /* MyWordsVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyWordsVC.xib; sourceTree = "<group>"; };
 		529F09A02AB83326007C05EE /* AddNewMyWord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewMyWord.swift; sourceTree = "<group>"; };
@@ -226,6 +228,7 @@
 			children = (
 				AF727EE92A9766EA0068B616 /* ModuleDM.swift */,
 				AF727EEB2A97A9550068B616 /* ModuleNameDM.swift */,
+				529982EB2ABBF49A001F9DFE /* WordsDM.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -533,6 +536,7 @@
 				AF727EB02A95EDFF0068B616 /* Loader.swift in Sources */,
 				AF727EB32A95EEBD0068B616 /* Ex+Color.swift in Sources */,
 				AF727EB72A95EF6F0068B616 /* Ex+NavigationBar.swift in Sources */,
+				529982EC2ABBF49A001F9DFE /* WordsDM.swift in Sources */,
 				AF727EAD2A95ED600068B616 /* Alert.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

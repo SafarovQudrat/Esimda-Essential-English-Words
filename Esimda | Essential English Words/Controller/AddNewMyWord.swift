@@ -21,14 +21,17 @@ class AddNewMyWord: UIViewController {
     
     @IBOutlet weak var tableViewHeight: NSLayoutConstraint!
     
-var count = 4
+    var arr:[WordsDM] = [
+    WordsDM(word: "", desc: ""),
+    WordsDM(word: "", desc: "")
+    ]
     override func viewDidLoad() {
         super.viewDidLoad()
 setNavController()
         tableView.delegate = self
         tableView.dataSource = self
         tableView.register(UINib(nibName: "NewWordSubTVC", bundle: nil), forCellReuseIdentifier: "NewWordSubTVC")
-        tableViewHeight.constant = CGFloat(count * 183)
+        tableViewHeight.constant = CGFloat(arr.count * 183)
         
     }
 
@@ -60,18 +63,38 @@ setNavController()
         descBtn.isHidden = true
     }
     
-}
-extension AddNewMyWord:UITableViewDelegate,UITableViewDataSource {
-    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        
+    @IBAction func plusTapped(_ sender: Any) {
+        arr.append(WordsDM(word: "", desc: ""))
+        tableViewHeight.constant = CGFloat(arr.count * 183)
+        tableView.reloadData()
     }
     
+    
+    
+}
+extension AddNewMyWord:UITableViewDelegate,UITableViewDataSource {
+    
+    
+    func tableView(_ tableView: UITableView, trailingSwipeActionsConfigurationForRowAt indexPath: IndexPath) -> UISwipeActionsConfiguration? {
+        let delete = UIContextualAction(style: .destructive, title: " ") { [self] _, _, _ in
+                arr.remove(at: indexPath.row)
+                tableView.reloadData()
+        }
+        delete.image = UIImage(systemName: "trash")
+        
+        let archive = UIContextualAction(style: .normal, title: "Archive") { _, _, _ in}
+        archive.image = UIImage(systemName: "archivebox.fill")
+        return UISwipeActionsConfiguration(actions: [delete])
+    }
+    
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        4
+        arr.count
     }
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         guard let cell = tableView.dequeueReusableCell(withIdentifier: "NewWordSubTVC", for: indexPath) as? NewWordSubTVC else {return UITableViewCell()}
         cell.selectionStyle = .none
+        cell.updateCell(word: arr[indexPath.row])
         return cell
     }
     

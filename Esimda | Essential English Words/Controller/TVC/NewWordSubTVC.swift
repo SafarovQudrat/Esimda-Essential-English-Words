@@ -9,6 +9,13 @@ import UIKit
 
 class NewWordSubTVC: UITableViewCell {
 
+    
+    @IBOutlet weak var wordTF: UITextField!
+    
+    
+    @IBOutlet weak var descTF: UITextField!
+    
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -18,6 +25,12 @@ class NewWordSubTVC: UITableViewCell {
         super.setSelected(selected, animated: animated)
 
         // Configure the view for the selected state
+    }
+    
+    
+    func updateCell(word:WordsDM){
+        wordTF.text = word.word
+        descTF.text = word.desc
     }
     
 }
