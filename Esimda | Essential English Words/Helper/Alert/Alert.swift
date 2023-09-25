@@ -25,7 +25,7 @@ class Alert: UIView {
         
         //       messageView
         Alert.messageView.backgroundColor = #colorLiteral(red: 0.9937880635, green: 0.9937880635, blue: 0.9937880635, alpha: 1)
-        Alert.messageView.layer.cornerRadius = 10
+        Alert.messageView.layer.cornerRadius = 3
         Alert.messageView.translatesAutoresizingMaskIntoConstraints = false
         
         //       titleLbl
@@ -40,8 +40,8 @@ class Alert: UIView {
         
         //       acceptBtn
         let acceptBtn = UIButton()
-        acceptBtn.layer.cornerRadius = 8
-        acceptBtn.backgroundColor = .black
+        
+        acceptBtn.backgroundColor = #colorLiteral(red: 0.231372549, green: 0.3490196078, blue: 0.6, alpha: 1)
         acceptBtn.setTitle("Yes", for: .normal)
         acceptBtn.setTitleColor(UIColor.white, for: .normal)
         acceptBtn.titleLabel?.font = UIFont(name: "roboto_bold", size: 18)
@@ -49,21 +49,28 @@ class Alert: UIView {
         
         //       cancelBtn
         let cancelBtn = UIButton()
-        cancelBtn.backgroundColor = #colorLiteral(red: 0.9309120178, green: 0.934602797, blue: 0.9500084519, alpha: 1)
-        cancelBtn.layer.cornerRadius = 8
+        cancelBtn.backgroundColor = #colorLiteral(red: 0.231372549, green: 0.3490196078, blue: 0.6, alpha: 0.7)
+        
         cancelBtn.setTitle("No", for: .normal)
-        cancelBtn.setTitleColor(UIColor.darkGray, for: .normal)
+        cancelBtn.setTitleColor(UIColor.white, for: .normal)
         cancelBtn.titleLabel?.font = UIFont(name: "roboto_bold", size: 18)
         cancelBtn.translatesAutoresizingMaskIntoConstraints = false
         
         //       stackView
         let stackView = UIStackView()
         stackView.axis = .vertical
-        stackView.alignment = .center
+        stackView.alignment = .fill
         stackView.distribution = .fill
         stackView.spacing = 10
         stackView.translatesAutoresizingMaskIntoConstraints = false
         
+        //       stackView
+        let buttonStackView = UIStackView()
+        buttonStackView.axis = .horizontal
+        buttonStackView.alignment = .fill
+        buttonStackView.distribution = .fillEqually
+        buttonStackView.spacing = 0
+        buttonStackView.translatesAutoresizingMaskIntoConstraints = false
         
         
         backgroundView.addSubview(Alert.messageView)
@@ -73,24 +80,25 @@ class Alert: UIView {
         Alert.messageView.leadingAnchor.constraint(equalTo: backgroundView.leadingAnchor, constant: 20).isActive = true
         Alert.messageView.trailingAnchor.constraint(equalTo: backgroundView.trailingAnchor, constant: -20).isActive = true
         
-        Alert.messageView.addSubview(stackView)
+        buttonStackView.addArrangedSubview(cancelBtn)
+        buttonStackView.addArrangedSubview(acceptBtn)
+       
+        
         stackView.addArrangedSubview(titleLbl)
-        stackView.addArrangedSubview(acceptBtn)
-        stackView.addArrangedSubview(cancelBtn)
+        stackView.addArrangedSubview(buttonStackView)
+        
+        Alert.messageView.addSubview(stackView)
         
         stackView.topAnchor.constraint(equalTo: Alert.messageView.topAnchor, constant: 30).isActive = true
-        stackView.bottomAnchor.constraint(equalTo: Alert.messageView.bottomAnchor, constant: -30).isActive = true
-        stackView.leftAnchor.constraint(equalTo: Alert.messageView.leftAnchor, constant: 12).isActive = true
-        stackView.trailingAnchor.constraint(equalTo: Alert.messageView.trailingAnchor, constant: -12).isActive = true
+        stackView.bottomAnchor.constraint(equalTo: Alert.messageView.bottomAnchor, constant: 0).isActive = true
+        stackView.leftAnchor.constraint(equalTo: Alert.messageView.leftAnchor, constant: 0).isActive = true
+        stackView.trailingAnchor.constraint(equalTo: Alert.messageView.trailingAnchor, constant: 0).isActive = true
         
-        acceptBtn.leftAnchor.constraint(equalTo: stackView.leftAnchor, constant: 0).isActive = true
-        acceptBtn.trailingAnchor.constraint(equalTo: stackView.trailingAnchor, constant: 0).isActive = true
-        acceptBtn.heightAnchor.constraint(equalToConstant: 48).isActive = true
+        
+        
+
+        acceptBtn.heightAnchor.constraint(equalToConstant: 50).isActive = true
         acceptBtn.addTarget(backgroundView, action: #selector(Alert.alertAcceptButtonTapped), for: .touchUpInside)
-        
-        cancelBtn.leftAnchor.constraint(equalTo: stackView.leftAnchor, constant: 0).isActive = true
-        cancelBtn.trailingAnchor.constraint(equalTo: stackView.trailingAnchor, constant: 0).isActive = true
-        cancelBtn.heightAnchor.constraint(equalToConstant: 48).isActive = true
         cancelBtn.addTarget(backgroundView, action: #selector(Alert.alertCancelButtonTapped), for: .touchUpInside)
         
         
